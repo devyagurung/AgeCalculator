@@ -39,6 +39,11 @@ public class AgeCalculator {
 		if (newAge >= 0)
 			System.out.println("You will be " + newAge + "-years-old in "
 				+ anotherYear + ".");
+                
+                // Extra credit 1
+                else {
+                    System.out.println("You were not born yet ");
+                }
 
 		/* 
 		 EXTRA CREDIT 1: Use an else statement above to output an error message. This
